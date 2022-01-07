@@ -3,7 +3,53 @@
     margin: 0;
     padding: 0;
   }
-
+  
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: #FEC524;
 }
+/* Start of header */
+
+header {
+  padding: 20px 35px;
+  background-color: #8B2131;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #FEC524;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: #FEC524;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
