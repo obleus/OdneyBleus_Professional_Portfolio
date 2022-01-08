@@ -7,13 +7,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #FEC524;
-    background-color:#8B2131 ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../images/softwarback.jpg);
 }
 /* Start of header */
 
 header {
   padding: 20px 35px;
-  background-color: #8B2131;
+  background-image: url(../images/softwarback.jpg);
+  background-attachment: fixed;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -58,15 +61,16 @@ header nav ul li a {
 
 /*about me section */
 
-.aboutme-cta {
-  text-align: center;
-}
+
 
 .personal img {
   height: 430px;
   width: 430px;
   border: solid;
   border-width: 5px;
+  border-radius: 215px;
+  float: left;
+  margin-right: 24px;
 }
 
 .personal {
@@ -82,17 +86,27 @@ header nav ul li a {
 
 /* end  of  about me setion */
 
-/* start work section */
+/* start section section */
 
-.work2 h2 {
+.section-title {
   text-align: center;
-  padding: 100px;
-}
-.projects {
-  display: flex;
-  justify-content: space-evenly;
+  border-bottom: solid;
+  padding-bottom: 10px;
+  margin: 0px auto 35px auto;
+  width: 50%;
 }
 
+
+.firstp {
+  display: flex;
+  justify-content: center;
+  margin: 29px;
+}
+
+.secondp {
+  display: flex;
+  justify-content: center;
+}
 
 .projects img {
   width: 150px;
