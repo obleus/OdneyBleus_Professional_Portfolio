@@ -7,6 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #FEC524;
+    background-color:#8B2131 ;
 }
 /* Start of header */
 
@@ -51,20 +52,43 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+/* end of  header */
 
-.aboutme-cta h2 {
+/*about me section */
+
+.aboutme-cta {
   text-align: center;
 }
 
 .personal img {
-  height: 189px;
+  height: 430px;
+  width: 430px;
+  border: solid;
+  border-width: 5px;
 }
 
 .personal {
   display: flex;
+  margin: 65px;
 }
+
 
 .aboutinfo {
   margin-left: 2em;
+  padding: 30px;
+}
+
+/* end  of  about me setion */
+
+/* start work section */
+
+.work2 h2 {
+  text-align: center;
+  padding: 100px;
+}
+
+.work2 ul {
+  
 }
