@@ -53,3 +53,18 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+.aboutme-cta h2 {
+  text-align: center;
+}
+
+.personal img {
+  height: 189px;
+}
+
+.personal {
+  display: flex;
+}
+
+.aboutinfo {
+  margin-left: 2em;
+}
