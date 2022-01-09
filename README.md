@@ -8,16 +8,9 @@ Odney Bleus professional portfolio will show projects and assignments  completed
 
 *CSS
 
+The purpose of this projectis  to showcase my html  and css skills
 
-
-
-
-
-
-
-
-
-
+In there has two projects i have completed Run-Buddy and Horrieson 
 
 
 
