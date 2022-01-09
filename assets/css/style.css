@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   top: 0;
+
 }
 
 header h1 {
@@ -93,6 +94,7 @@ header nav ul li a:hover {
   color: white;
   font-size: 18px;
   padding: 10px;
+  font-weight: bold;
 }
 
 /* end  of  about me setion */
@@ -170,3 +172,63 @@ footer ul li a {
   color: white;
   font-size: 18px;
 }
+
+footer ul li a:hover {
+  background: #fce524;
+  color: #8b2131;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+@media screen and (max-width: 575px) {
+
+  header {
+      padding: 10px 20px;
+      display: flex;
+      }
+
+  header h1 {
+      margin: 0;
+      font-size: 20px;
+  }
+
+  header nav {
+      margin: 3px 0;
+    }
+
+    header nav ul li a {
+      padding: 0 10px;
+      color: white;
+      font-size: 16px;
+    }
+
+  footer {
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      top: 0;
+    }
+  
+    footer h2 {
+        color: white;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  
+  footer ul {
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      list-style: none;
+      font-size: 16px;
+  }
+  
+  footer ul li a {
+      padding: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+  }
+  }
