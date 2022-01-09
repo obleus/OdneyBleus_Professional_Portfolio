@@ -6,16 +6,16 @@
   
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #FEC524;
+    color: white;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(../images/softwarback.jpg);
+    background-image: url(../images/softwareback2.jpg);
 }
 /* Start of header */
 
 header {
   padding: 20px 35px;
-  background-image: url(../images/softwarback.jpg);
+  background-image: url(../images/softwareback2.jpg);
   background-attachment: fixed;
   display: flex;
   justify-content: space-between;
@@ -29,13 +29,13 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #FEC524;
+  color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
   text-decoration: none;
-  color: #FEC524;
+  color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -71,6 +71,7 @@ header nav ul li a {
   border-radius: 215px;
   float: left;
   margin-right: 24px;
+  border-color: #fec524;
 }
 
 .personal {
@@ -82,6 +83,7 @@ header nav ul li a {
 .aboutinfo {
   margin-left: 2em;
   padding: 30px;
+  font-weight: bold;
 }
 
 /* end  of  about me setion */
@@ -94,6 +96,7 @@ header nav ul li a {
   padding-bottom: 10px;
   margin: 0px auto 35px auto;
   width: 50%;
+  font-size: 40px;
 }
 
 
@@ -111,5 +114,16 @@ header nav ul li a {
 .projects img {
   width: 150px;
   height: 100px;
-  
+  margin: 14px;
+}
+
+.reachme ul li a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reachme a {
+  font-size: 30px;
+  color: white;
 }
