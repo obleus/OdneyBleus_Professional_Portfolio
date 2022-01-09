@@ -3,12 +3,11 @@
     margin: 0;
     padding: 0;
   }
-  
-body {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url(../images/softwareback2.jpg);
+body{
+  background-image: url(../images/softwareback2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 /* Start of header */
 
@@ -76,14 +75,12 @@ header nav ul li a:hover {
 
 
 .personal img {
-  height: 430px;
-  width: 430px;
-  border: solid;
-  border-width: 5px;
-  border-radius: 215px;
-  float: left;
-  margin-right: 24px;
-  border-color: #fec524;
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  max-width: 250px;
+  border-radius: 85%;
+  padding: 10px;
 }
 
 .personal {
@@ -93,9 +90,9 @@ header nav ul li a:hover {
 
 
 .aboutinfo {
-  margin-left: 2em;
-  padding: 30px;
-  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
 }
 
 /* end  of  about me setion */
@@ -103,12 +100,11 @@ header nav ul li a:hover {
 /* start section section */
 
 .section-title {
+  color: white;
   text-align: center;
-  border-bottom: solid;
-  padding-bottom: 10px;
-  margin: 0px auto 35px auto;
-  width: 50%;
-  font-size: 40px;
+  border-bottom: 1.5px solid white;
+  padding-top: 20px;
+  font-size: 22px;
 }
 
 
@@ -144,21 +140,33 @@ header nav ul li a:hover {
   margin: 14px;
 }
 
-.reachme ul li a {
-  text-decoration: none;
+footer {
+  padding: 20px 35px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
 }
 
-.reachme ul li a:hover{
-  text-decoration: none;
-  border-radius: 15px;
-  color: #fce524;
-  background: #8b2131;
-}
-
-.reachme a {
-  font-size: 30px;
+footer h2 {
   color: white;
+  font-weight: bold;
+  font-size: 36px;
 }
 
+footer ul {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+}
+
+footer ul li a {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
