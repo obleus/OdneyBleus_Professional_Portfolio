@@ -38,6 +38,13 @@ header a {
   color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+header a:hover {
+  background: #fce524;
+  color: #8b2131;
+  text-shadow: none;
+  border-radius: 15px;
+  font-weight: lighter;
+  }
 
 header nav {
   margin: 7px 0;
@@ -57,6 +64,17 @@ header nav ul li a {
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+header nav ul li a:hover {
+  background: #fce524;
+  color: #8b2131;
+  border-radius: 15px;
+  text-shadow: none;
+}
+  
+  
+
+
 /* end of  header */
 
 /*about me section */
@@ -104,11 +122,26 @@ header nav ul li a {
   display: flex;
   justify-content: center;
   margin: 29px;
+  opacity: 0.5;
+}
+
+.firstp:hover {
+  display: flex;
+  justify-content: center;
+  margin: 29px;
+  opacity: 1.0;
 }
 
 .secondp {
   display: flex;
   justify-content: center;
+  opacity: 0.5;
+}
+
+.secondp:hover {
+  display: flex;
+  justify-content: center;
+  opacity: 1.0;
 }
 
 .projects img {
@@ -121,6 +154,13 @@ header nav ul li a {
   text-decoration: none;
   display: flex;
   justify-content: space-evenly;
+}
+
+.reachme ul li a:hover{
+  text-decoration: none;
+  border-radius: 15px;
+  color: #fce524;
+  background: #8b2131;
 }
 
 .reachme a {
